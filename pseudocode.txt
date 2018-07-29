@@ -1,0 +1,15 @@
+PROGRAM findThingInArray (FUNCTION)
+  READ sourceArray
+  READ searchItem
+
+  SCAN THROUGH sourceArray (FOR LOOP)
+    COMPARE searchItem TO current value in sourceArray (IF-ELSE STATEMENTS)
+
+    IF searchItem EQUALS value in sourceArray
+      REPORT current position in sourceArray (ALERT or CONSOLE.LOG)
+    OTHERWISE
+      CONTINUE SCAN
+    END IF
+
+  END SCAN
+END PROGRAM
